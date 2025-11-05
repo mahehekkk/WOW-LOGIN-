@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h2>WOW 🌤</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+      </div>
+
+      <div class="options">
+        <a href="#" id="forgotPassword">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+
+      <div class="divider">
+        <span>or</span>
+      </div>
+
+      <div class="social-login">
+        <button type="button" class="google-btn">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google" />
+          Continue with Google
+        </button>
+        <button type="button" class="apple-btn">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple" />
+          Continue with Apple
+        </button>
+      </div>
+
+      <p class="signup-text">
+        Don’t have an account? <a href="#">Sign up</a>
+      </p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
